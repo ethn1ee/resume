@@ -27,7 +27,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: resume
-          path: main.pdf
+          path: resume.pdf
 
       - name: Get current date
         id: date

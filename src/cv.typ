@@ -91,7 +91,6 @@
 #let contacttext(info, uservars) = block(width: 100%)[
     #let profiles = (
         if "email" in info.personal and info.personal.email != none { box(link("mailto:" + info.personal.email)) },
-        if ("phone" in info.personal and info.personal.phone != none) and uservars.showNumber {box(link("tel:" + info.personal.phone))} else {none},
         if ("url" in info.personal) and (info.personal.url != none) {
             box(link(info.personal.url)[#info.personal.url.split("//").at(1)])
         }

@@ -1,7 +1,5 @@
-# yaml-language-server: $schema=../cv.typ.schema.json
-
 personal:
-  name: Taehoon Lee
+  name: Taehoon (Ethan) Lee
   email: ethantlee21@gmail.com
   url: https://taehoonlee.dev
   profiles:
