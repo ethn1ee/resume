@@ -1,6 +1,10 @@
 .PHONY: compile preview
 
-compile:
+pdf:
 	typst compile ./src/main.typ ./resume.pdf --root .
+
+png:
+	typst compile ./src/main.typ ./resume.png --root . --format png
+
 preview:
 	tinymist preview ./src/main.typ --partial-rendering true --root .

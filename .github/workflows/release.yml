@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,9 +19,7 @@ jobs:
         uses: typst-community/setup-typst@v4
 
       - name: Compile to PDF
-        run: make compile
-
-      - run: ls
+        run: make pdf
 
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
@@ -33,9 +31,24 @@ jobs:
         id: date
         run: echo "DATE=$(date +%Y-%m-%d)" >> $GITHUB_ENV
 
+      - name: Create tag
+        run: echo "TAG=${{ env.DATE }}-${{ github.sha }}" >> $GITHUB_ENV
+
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
           name: "Resume"
           files: main.pdf
-          tag_name: "${{ env.DATE }}-${{ github.sha }}"
+          tag_name: ${{ env.TAG }}
+
+      - name: Update readme latest release
+        run: |
+          LATEST_RELEASE_URL=$(gh release view ${{ env.TAG }} --json url -q .url)
+          sed -i "s|Latest release: .*|Latest release: [${{ env.TAG }}]($LATEST_RELEASE_URL)|" README.md
+          git config --global user.name "${GITHUB_ACTOR}"
+          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update latest release to ${{ env.TAG }}"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
