@@ -1,0 +1,21 @@
+version: "3"
+
+vars:
+  INPUT: ./src/main.typ
+  OUTPUT: ./assets/resume
+
+tasks:
+  compile:*:
+    vars:
+      FORMAT: "{{index .MATCH 0}}"
+    cmds:
+      - mkdir -p ./assets
+      - export TYPST_FEATURES=html
+      - typst compile "{{.INPUT}}" "{{.OUTPUT}}.{{.FORMAT}}" --root . --format {{.FORMAT}}
+    desc: Compile resume in specified format (pdf, png, html)
+    silent: true
+  preview:
+    cmds:
+      - tinymist preview ./src/main.typ --partial-rendering true --root .
+    desc: Preview resume in browser
+    silent: true

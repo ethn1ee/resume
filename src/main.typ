@@ -15,22 +15,9 @@
     sendnote: false,         // bool. set to false to have sideways endnote
 )
 
-#let customrules(doc) = {
-    // add custom document style rules here
-    set page(                // https://typst.app/docs/reference/layout/page
-        paper: "us-letter",
-        margin: 1.25cm,
-    )
-
-    // set list(indent: 1em)
-
-    doc
-}
-
 #let cvinit(doc) = {
     doc = setrules(uservars, doc)
     doc = showrules(uservars, doc)
-    doc = customrules(doc)
 
     doc
 }

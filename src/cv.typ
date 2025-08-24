@@ -56,6 +56,11 @@
 }
 
 // Set page layout
+#set page(
+    paper: "us-letter",
+    margin: 1.25cm,
+)
+
 #let cvinit(doc) = {
     doc = setrules(doc)
     doc = showrules(doc)
