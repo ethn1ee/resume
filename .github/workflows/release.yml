@@ -36,4 +36,3 @@ jobs:
           name: "Resume — ${{ env.DATE }}"
           files: main.pdf
           tag_name: "release-${{ env.DATE }}"
-          make_latest: true
