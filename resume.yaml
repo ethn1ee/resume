@@ -67,7 +67,9 @@ work:
     startDate: 2023-11-01
     endDate: present
     highlights:
-      - Co-authored a personal informatics study under Dr. Emily Wall, identifying barriers to data engagement in music streaming service users and behaviors of casual users versus self-trackers
+      - Co-authored a personal informatics study under Dr. Emily Wall, studying data engagement of music streaming service users
+      - Conducted 60-person survey and aggregated 100+ GB of streaming history data using *Python* for comprehensive statistical analysis
+      - Created interactive web data visualizations using *jQuery* and *d3.js*, enabling dynamic exploration of streaming history
 
 projects:
   - name: "Spitikos: Kubernetes Homelab"
@@ -137,6 +139,16 @@ skills:
       - Spring Boot
       - Gradio
       - .NET
+  - category: Data Science & Machine Learning
+    skills:
+      - Pandas
+      - NumPy
+      - Scikit-Learn
+      - PyTorch
+      - SciPy
+      - Gradio
+      - OpenCV
+      - Torchvision
   - category: Tools
     skills:
       - Git
