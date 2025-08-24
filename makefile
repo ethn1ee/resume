@@ -1,7 +1,7 @@
 .PHONY: compile preview
 
 pdf:
-	@typst compile ./src/main.typ ./resume.pdf --root .
+	@typst compile ./src/main.typ ./assets/resume.pdf --root .
 
 png:
 	@mkdir -p ./assets
