@@ -2,4 +2,4 @@
 
 ![resume](./assets/resume.png)
 
-Latest release: [2025-08-24-d8d4ac9fbab29001aa5d9ed32ddba34b1e99ff49](https://github.com/ethn1ee/resume/releases/tag/2025-08-24-d8d4ac9fbab29001aa5d9ed32ddba34b1e99ff49)
+Latest release: [2025-08-24-d4c576d459aae11f6f7af9f51e7f9572e6c253b9](https://github.com/ethn1ee/resume/releases/tag/2025-08-24-d4c576d459aae11f6f7af9f51e7f9572e6c253b9)
