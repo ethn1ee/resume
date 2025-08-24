@@ -11,11 +11,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Typst
-        uses: lvignoli/typst-action@main
-        with:
-          root: .
-          source_file: ./src/main.typ
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v4
+
+      - name: Compile to PDF
+        run: make compile
 
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
