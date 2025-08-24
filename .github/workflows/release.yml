@@ -1,4 +1,4 @@
-name: Release
+name: Compile and Release Resume
 
 on:
   push:
@@ -10,6 +10,7 @@ permissions:
 
 jobs:
   release:
+    name: Compile and Release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,6 +23,7 @@ jobs:
         run: |
           make pdf
           make png
+          ls
 
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
@@ -39,8 +41,8 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          name: "Resume"
-          files: main.pdf
+          name: Resume
+          files: resume.pdf
           tag_name: ${{ env.TAG }}
 
       - name: Update readme latest release
