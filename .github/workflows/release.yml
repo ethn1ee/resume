@@ -18,8 +18,10 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
 
-      - name: Compile to PDF
-        run: make pdf
+      - name: Compile
+        run: |
+          make pdf
+          make png
 
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
@@ -41,16 +43,13 @@ jobs:
           files: main.pdf
           tag_name: ${{ env.TAG }}
 
-      - name: Compile to PNG
-        run: make png
-
       - name: Update readme latest release
         run: |
           LATEST_RELEASE_URL=$(gh release view ${{ env.TAG }} --json url -q .url)
           sed -i "s|Latest release: .*|Latest release: [${{ env.TAG }}]($LATEST_RELEASE_URL)|" README.md
           git config --global user.name "${GITHUB_ACTOR}"
           git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add README.md
+          git add .
           git commit -m "Update latest release to ${{ env.TAG }}"
           git push
         env:
