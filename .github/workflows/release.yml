@@ -19,10 +19,15 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
 
+      - name: Setup Task
+        uses: arduino/setup-task@v2
+        with:
+          version: 3.x
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Compile
         run: |
-          make pdf
-          make png
+          task compile
 
       - name: Get current date
         id: date

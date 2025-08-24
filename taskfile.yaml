@@ -5,6 +5,10 @@ vars:
   OUTPUT: ./assets/resume
 
 tasks:
+  compile:
+    cmds:
+      - task: compile:pdf
+      - task: compile:png
   compile:*:
     vars:
       FORMAT: "{{index .MATCH 0}}"
@@ -12,7 +16,7 @@ tasks:
       - mkdir -p ./assets
       - export TYPST_FEATURES=html
       - typst compile "{{.INPUT}}" "{{.OUTPUT}}.{{.FORMAT}}" --root . --format {{.FORMAT}}
-    desc: Compile resume in specified format (pdf, png, html)
+    desc: Compile resume in specified format (pdf, png)
     silent: true
   preview:
     cmds:

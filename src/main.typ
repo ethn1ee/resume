@@ -3,6 +3,8 @@
 #let cvdata = yaml("../resume.yaml")
 
 #let uservars = (
+	paper: "us-letter",
+	margin: 1.25cm,
     headingfont: "Libertinus Serif",
     bodyfont: "Libertinus Serif",
     fontsize: 10pt,          // https://typst.app/docs/reference/layout/length
