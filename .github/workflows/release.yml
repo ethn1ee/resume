@@ -1,8 +1,9 @@
-name: Makefile CI
+name: Release
 
 on:
   push:
     branches: ["main"]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -31,7 +32,8 @@ jobs:
 
       - name: Release
         uses: softprops/action-gh-release@v1
-        if: github.ref_type == 'tag'
         with:
-          name: "${{ github.ref_name }} — ${{ env.DATE }}"
+          name: "Resume — ${{ env.DATE }}"
           files: main.pdf
+          tag_name: "release-${{ env.DATE }}"
+          make_latest: true
