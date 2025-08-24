@@ -1,5 +1,5 @@
 # Resume
 
-![resume](resume.png)
+![resume](./assets/resume.png)
 
 Latest release: --

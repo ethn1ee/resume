@@ -41,6 +41,9 @@ jobs:
           files: main.pdf
           tag_name: ${{ env.TAG }}
 
+      - name: Compile to PNG
+        run: make png
+
       - name: Update readme latest release
         run: |
           LATEST_RELEASE_URL=$(gh release view ${{ env.TAG }} --json url -q .url)
