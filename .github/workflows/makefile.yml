@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - run: ls
-
-      - name: Compile to pdf
-        run: make compile
+      - name: Typst
+        uses: lvignoli/typst-action@main
+        with:
+          source_file: ./src/main.typ
