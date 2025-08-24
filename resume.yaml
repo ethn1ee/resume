@@ -1,0 +1,149 @@
+# yaml-language-server: $schema=../cv.typ.schema.json
+
+personal:
+  name: Taehoon Lee
+  email: ethantlee21@gmail.com
+  url: https://taehoonlee.dev
+  profiles:
+    - network: LinkedIn
+      username: ethantlee
+      url: https://linkedin.com/in/ethantlee
+    - network: GitHub
+      username: ethn1ee
+      url: https://github.com/ethn1ee
+
+education:
+  - institution: Emory University
+    url:
+    area: Computer Science
+    studyType: Bachelor of Science
+    startDate: 2023-08-01
+    endDate: 2026-05-01
+    location: Atlanta, GA
+    honors:
+      - 3.99 / 4.0 GPA
+      - 4x James T Laney Scholarship
+      - 3x Dean's List
+    courses:
+      - Data Structures & Algorithmns
+      - Computer Architecture
+      - Algorithm Analysis
+      - Machine Learning
+      - Database Systems
+      - Data Mining
+      - Deep Learning
+      - Linear Algebra
+      - Discrete Structures
+
+work:
+  - position: Cloud Platform Engineering Intern
+    organization: UKG
+    location: Atlanta, GA
+    startDate: 2025-05-01
+    endDate: 2025-08-01
+    highlights:
+      - Implemented a *Kubernetes* CronJob for TLS certificate expiry check, providing significant observability during certificate renewal
+      - Developed an internal API to aggregate real-time status of on-prem MongoDB, MySQL, and RabbitMQ services across 4 distinct datacenters, using cloud-native technologies such as *Go*, *Docker*, *OpenTelemetry*, *Cloud Foundry BOSH*, and *OpenStack*
+      - Enhanced system observability through *Grafana* synthetic monitoring and provisioned monitoring probes with *Terraform*
+      - Applied CI/CD and GitOps practice using *ArgoCD*, *Helm*, and *GitHub Actions* to fully automate container release and deployment
+  - position: Software Engineering Intern
+    organization: UrsaTech
+    location: Atlanta, GA
+    startDate: 2024-12-01
+    endDate: 2025-02-01
+    highlights:
+      - Engineered a coding education web app, integrating 3D games and a personalized LLM tutor using *Next.js* and *Express.js*
+      - Utilized a diverse stack of 30+ widely-used *Javascript/Typescript* libraries, including *AWS Amplify*, *Auth0*, *AI SDK*, and *MUI*
+  - position: Software Engineering Intern
+    organization: eStreamly
+    location: Atlanta, GA
+    startDate: 2024-06-01
+    endDate: 2024-08-01
+    highlights:
+      - Maintained a full-stack video streaming-based shopping platform, leveraging *Angular* for frontend and *.NET* for backend
+      - Performed a significant redesign and accessibility enhancement of the UI to expand target audience and improve conversion rate
+      - Collaborated in an *Agile* team of developers, contributing to weekly sprints and QA testing for robust and efficient feature delivery
+  - position: Data Science Research Assistant
+    organization: Emory University CAV Lab
+    location: Atlanta, GA
+    startDate: 2023-11-01
+    endDate: present
+    highlights:
+      - Co-authored a personal informatics study under Dr. Emily Wall, identifying barriers to data engagement in music streaming service users and behaviors of casual users versus self-trackers
+
+projects:
+  - name: "Spitikos: Kubernetes Homelab"
+    startDate: 2025-07-01
+    endDate: present
+    highlights:
+      - Managed a personal *Kubernetes* cluster on a Raspberry Pi, implementing a highly available microservices architecture
+      - Deployed 10+ services including *PostgreSQL*, *Prometheus*, *Grafana*, *Pi-hole* and *Dex* using *Helm* charts and custom manifests
+      - Developed a central *gRPC* backend server with *Go* to proxy all inter-service communication, enhancing security and type-safety
+      - Utilized *NGINX Ingress Controller* for traffic management and *Cloudflare Tunnel* for secure remote access to the cluster
+      - Achieved complete CI/CD pipeline via *GitHub Action* and *ArgoCD*, automating deployment of services from GitHub to the cluster
+      - 'Built #link("https://spitikos.dev")[spitikos.dev] with *Next.js*, the project homepage featuring custom observability dashboard and documentation page'
+  - name: "Emory Hacks: Emory University's Student-Run Hackathon"
+    startDate: 2024-09-01
+    endDate: present
+    highlights:
+      - Co-founded and led the technolgy department, developing annual hackathon websites (#link("https://emoryhacks.com")[emoryhacks.com]) with *Next.js*
+      - Created a unique database solution leveraging Google Spreadsheet with *Google API*, allowing non-technical team members to easily manage event and participant data while addressing race conditions and data integrity
+      - Secured 100+ participants and sponsorships from major firms including JPMorgan, Hyundai, and WolframAlpha
+
+skills:
+  - category: Languages
+    skills:
+      - Go
+      - JavaScript/TypeScript
+      - Java
+      - Python
+      - C
+      - SQL
+      - Bash/Zsh
+      - HTML
+      - CSS
+      - Ruby
+      - Typst
+      - C#
+      - Vim
+  - category: Cloud-Native Technologies
+    skills:
+      - Kubernetes
+      - Docker
+      - Helm
+      - Linux
+      - ArgoCD
+      - gRPC
+      - Protobuf
+      - GitHub Actions
+      - Prometheus
+      - Grafana
+      - Vault
+      - OpenTelemetry
+      - NGINX
+      - Traefik
+      - OpenStack
+      - BOSH
+      - Dex
+      - Pi-Hole
+  - category: Web Development
+    skills:
+      - React
+      - Next.js
+      - Tailwind CSS
+      - Node.js
+      - NPM
+      - Django
+      - Angular
+      - Express.js
+      - Spring Boot
+      - Gradio
+      - .NET
+  - category: Tools
+    skills:
+      - Git
+      - AWS
+      - GCP
+      - PostgreSQL
+      - MySQL
+      - MongoDB
