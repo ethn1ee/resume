@@ -30,6 +30,7 @@ education:
       - Database Systems
       - Data Mining
       - Deep Learning
+      - Human-Computer Interaction
       - Linear Algebra
       - Discrete Structures
 
@@ -68,7 +69,7 @@ work:
     endDate: present
     highlights:
       - Co-authored a personal informatics study under Dr. Emily Wall, studying data engagement of music streaming service users
-      - Conducted 60-person survey and aggregated 100+ GB of streaming history data using *Python* for comprehensive statistical analysis
+      - Aggregated 100+ GB of streaming history data from 60 Spotify users using *Python* for comprehensive statistical analysis
       - Created interactive web data visualizations using *jQuery* and *d3.js*, enabling dynamic exploration of streaming history
 
 projects:
@@ -76,11 +77,11 @@ projects:
     startDate: 2025-07-01
     endDate: present
     highlights:
-      - Managed a personal *Kubernetes* cluster on a Raspberry Pi, implementing a highly available microservices architecture
-      - Deployed 10+ services including *PostgreSQL*, *Prometheus*, *Grafana*, *Pi-hole* and *Dex* using *Helm* charts and custom manifests
+      - Managing a personal *Kubernetes* cluster on a Raspberry Pi, implementing a highly available microservices architecture
+      - Deployed 10+ services including *PostgreSQL*, *Prometheus*, *Redis*, and *Hashicorp Vault* using *Helm* charts and custom manifests
       - Developed a central *gRPC* backend server with *Go* to proxy all inter-service communication, enhancing security and type-safety
       - Utilized *NGINX Ingress Controller* for traffic management and *Cloudflare Tunnel* for secure remote access to the cluster
-      - Achieved complete CI/CD pipeline via *GitHub Action* and *ArgoCD*, automating deployment of services from GitHub to the cluster
+      - Achieved complete *CI/CD* pipeline via *GitHub Action* and *ArgoCD*, automating deployment of services from GitHub to the cluster
       - 'Built #link("https://spitikos.dev")[spitikos.dev] with *Next.js*, the project homepage featuring custom observability dashboard and documentation page'
   - name: "Emory Hacks: Emory University's Student-Run Hackathon"
     startDate: 2024-09-01
@@ -99,13 +100,15 @@ skills:
       - Python
       - C
       - SQL
-      - Bash/Zsh
       - HTML
       - CSS
+      - Bash/Zsh
+      - Nushell
       - Ruby
       - Typst
       - C#
-      - Vim
+      - Lua
+      - VimScript
   - category: Cloud-Native Technologies
     skills:
       - Kubernetes
@@ -124,8 +127,6 @@ skills:
       - Traefik
       - OpenStack
       - BOSH
-      - Dex
-      - Pi-Hole
   - category: Web Development
     skills:
       - React
@@ -149,11 +150,13 @@ skills:
       - Gradio
       - OpenCV
       - Torchvision
+      - Gradio
   - category: Tools
     skills:
       - Git
       - AWS
       - GCP
+      - Redis
       - PostgreSQL
       - MySQL
       - MongoDB
