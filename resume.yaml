@@ -42,7 +42,7 @@ work:
     endDate: 2025-08-01
     highlights:
       - Implemented a *Kubernetes* CronJob for TLS certificate expiry check, providing significant observability during certificate renewal
-      - Developed an internal API to aggregate real-time status of on-prem MongoDB, MySQL, and RabbitMQ services across 4 distinct datacenters, using cloud-native technologies such as *Go*, *Docker*, *OpenTelemetry*, *Cloud Foundry BOSH*, and *OpenStack*
+      - Developed a *REST API* to aggregate real-time status of on-prem MongoDB, MySQL, and RabbitMQ services across 4 distinct datacenters, using cloud-native technologies such as *Go*, *Docker*, *OpenTelemetry*, *Cloud Foundry BOSH*, and *OpenStack*
       - Enhanced system observability through *Grafana* synthetic monitoring and provisioned monitoring probes with *Terraform*
       - Applied CI/CD and GitOps practice using *ArgoCD*, *Helm*, and *GitHub Actions* to fully automate container release and deployment
   - position: Software Engineering Intern
