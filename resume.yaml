@@ -99,6 +99,7 @@ skills:
       - Java
       - Python
       - C
+      - Rust
       - SQL
       - HTML
       - CSS
@@ -108,7 +109,7 @@ skills:
       - Typst
       - C#
       - Lua
-      - VimScript
+      - Vim
   - category: Cloud-Native Technologies
     skills:
       - Kubernetes
