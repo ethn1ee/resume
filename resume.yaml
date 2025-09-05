@@ -73,7 +73,7 @@ work:
       - Created interactive web data visualizations using *jQuery* and *d3.js*, enabling dynamic exploration of streaming history
 
 projects:
-  - name: "Spitikos: Kubernetes Homelab"
+  - name: "Kubernetes Homelab"
     startDate: 2025-07-01
     endDate: present
     highlights:
@@ -82,7 +82,7 @@ projects:
       - Developed a central *gRPC* backend server with *Go* to proxy all inter-service communication, enhancing security and type-safety
       - Utilized *NGINX Ingress Controller* for traffic management and *Cloudflare Tunnel* for secure remote access to the cluster
       - Achieved complete *CI/CD* pipeline via *GitHub Action* and *ArgoCD*, automating deployment of services from GitHub to the cluster
-      - 'Built #link("https://spitikos.dev")[spitikos.dev] with *Next.js*, the project homepage featuring custom observability dashboard and documentation page'
+      - 'Built #link("https://taehoonlee.cloud")[taehoonlee.cloud] with *Next.js*, the project homepage featuring custom observability dashboard and documentation page'
   - name: "Emory Hacks: Emory University's Student-Run Hackathon"
     startDate: 2024-09-01
     endDate: present
