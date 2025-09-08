@@ -14,4 +14,4 @@ A resume generation tool using Typst.
 
 ![resume](./assets/resume.png)
 
-Latest release: [2025-09-05-6174cdd699cf9ad18cfda626304ec553ca2850b0](https://github.com/ethn1ee/resume/releases/tag/2025-09-05-6174cdd699cf9ad18cfda626304ec553ca2850b0)
+Latest release: [2025-09-08-82efc3b2b091e47514fabf918629cf7f0ece0dd3](https://github.com/ethn1ee/resume/releases/tag/2025-09-08-82efc3b2b091e47514fabf918629cf7f0ece0dd3)
