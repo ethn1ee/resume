@@ -27,6 +27,7 @@ education:
       - Computer Architecture
       - Algorithm Analysis
       - Machine Learning
+      - Cybersecurity
       - Database Systems
       - Data Mining
       - Deep Learning
@@ -88,7 +89,7 @@ projects:
     endDate: present
     highlights:
       - Co-founded and led the technolgy department, developing annual hackathon websites (#link("https://emoryhacks.com")[emoryhacks.com]) with *Next.js*
-      - Created a unique database solution leveraging Google Spreadsheet with *Google API*, allowing non-technical team members to easily manage event and participant data while addressing race conditions and data integrity
+      - Created a unique database solution leveraging Google Spreadsheet with Google API, allowing non-technical team members to easily access and manage applicant data while addressing race conditions and data integrity
       - Secured 100+ participants and sponsorships from major firms including JPMorgan, Hyundai, and WolframAlpha
 
 skills:
@@ -116,18 +117,12 @@ skills:
       - Docker
       - Helm
       - Linux
-      - ArgoCD
       - gRPC
-      - Protobuf
-      - GitHub Actions
       - Prometheus
       - Grafana
-      - Vault
       - OpenTelemetry
       - NGINX
-      - Traefik
       - OpenStack
-      - BOSH
   - category: Web Development
     skills:
       - React
