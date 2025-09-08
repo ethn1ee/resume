@@ -117,9 +117,9 @@ skills:
       - Docker
       - Helm
       - Linux
+      - Terraform
       - gRPC
       - Prometheus
-      - Grafana
       - OpenTelemetry
       - NGINX
       - OpenStack
