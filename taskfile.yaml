@@ -1,7 +1,7 @@
 version: "3"
 
 vars:
-  INPUT: ./src/main.typ
+  INPUT: ./src/resume.typ
   OUTPUT: ./assets/resume
 
 tasks:
