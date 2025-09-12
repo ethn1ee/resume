@@ -1,5 +1,5 @@
 personal:
-  name: Taehoon (Ethan) Lee
+  name: Ethan (Taehoon) Lee
   email: ethantlee21@gmail.com
   url: https://taehoonlee.dev
   profiles:
@@ -42,27 +42,20 @@ work:
     startDate: 2025-05-01
     endDate: 2025-08-01
     highlights:
-      - Implemented a *Kubernetes* CronJob for TLS certificate expiry check, providing significant observability during certificate renewal
-      - Developed a *REST API* to aggregate real-time status of on-prem MongoDB, MySQL, and RabbitMQ services across 4 distinct datacenters, using cloud-native technologies such as *Go*, *Docker*, *OpenTelemetry*, *Cloud Foundry BOSH*, and *OpenStack*
-      - Enhanced system observability through *Grafana* synthetic monitoring and provisioned monitoring probes with *Terraform*
-      - Applied CI/CD and GitOps practice using *ArgoCD*, *Helm*, and *GitHub Actions* to fully automate container release and deployment
-  - position: Software Engineering Intern
-    organization: UrsaTech
-    location: Atlanta, GA
-    startDate: 2024-12-01
-    endDate: 2025-02-01
-    highlights:
-      - Engineered a coding education web app, integrating 3D games and a personalized LLM tutor using *Next.js* and *Express.js*
-      - Utilized a diverse stack of 30+ widely-used *Javascript/Typescript* libraries, including *AWS Amplify*, *Auth0*, *AI SDK*, and *MUI*
+      - Implemented a Kubernetes CronJob for TLS certificate expiry check, providing significant observability during certificate renewal
+      - Developed an internal REST API to aggregate real-time status of on-prem MongoDB, MySQL, and RabbitMQ services across 4 distinct datacenters, using cloud-native technologies such as Go, Docker, OpenTelemetry, Cloud Foundry BOSH, and OpenStack
+      - Enhanced system observability through Grafana synthetic monitoring and provisioned private monitoring probes with Terraform
+      - Applied CI/CD and GitOps practice using ArgoCD, Helm, and GitHub Actions to fully automate container release and deployment
+      - Practiced Agile methodologies, participating in daily standups and bi-weekly sprint planning to ensure timely delivery of features
   - position: Software Engineering Intern
     organization: eStreamly
     location: Atlanta, GA
     startDate: 2024-06-01
     endDate: 2024-08-01
     highlights:
-      - Maintained a full-stack video streaming-based shopping platform, leveraging *Angular* for frontend and *.NET* for backend
+      - Maintained a full-stack video streaming-based shopping platform, leveraging Angular for frontend and .NET for backend
       - Performed a significant redesign and accessibility enhancement of the UI to expand target audience and improve conversion rate
-      - Collaborated in an *Agile* team of developers, contributing to weekly sprints and QA testing for robust and efficient feature delivery
+      - Collaborated in an Agile team of developers, contributing to weekly sprints and QA testing for robust and efficient feature delivery
   - position: Data Science Research Assistant
     organization: Emory University CAV Lab
     location: Atlanta, GA
@@ -70,27 +63,33 @@ work:
     endDate: present
     highlights:
       - Co-authored a personal informatics study under Dr. Emily Wall, studying data engagement of music streaming service users
-      - Aggregated 100+ GB of streaming history data from 60 Spotify users using *Python* for comprehensive statistical analysis
-      - Created interactive web data visualizations using *jQuery* and *d3.js*, enabling dynamic exploration of streaming history
+      - Aggregated 100+ GB of streaming history data from 60 Spotify users using Python for comprehensive statistical analysis
+      - Created interactive web data visualizations using jQuery and d3.js, enabling dynamic exploration of streaming history
 
 projects:
-  - name: "Kubernetes Homelab"
+  - name: Kubernetes Homelab
     startDate: 2025-07-01
     endDate: present
     highlights:
-      - Managing a personal *Kubernetes* cluster on a Raspberry Pi, implementing a highly available microservices architecture
-      - Deployed 10+ services including *PostgreSQL*, *Prometheus*, *Redis*, and *Hashicorp Vault* using *Helm* charts and custom manifests
-      - Developed a central *gRPC* backend server with *Go* to proxy all inter-service communication, enhancing security and type-safety
-      - Utilized *NGINX Ingress Controller* for traffic management and *Cloudflare Tunnel* for secure remote access to the cluster
-      - Achieved complete *CI/CD* pipeline via *GitHub Action* and *ArgoCD*, automating deployment of services from GitHub to the cluster
-      - 'Built #link("https://taehoonlee.cloud")[taehoonlee.cloud] with *Next.js*, the project homepage featuring custom observability dashboard and documentation page'
+      - Managing a personal Kubernetes cluster on a Raspberry Pi, implementing a highly available microservices architecture
+      - Deployed 10+ services including PostgreSQL, Prometheus, Redis, and Hashicorp Vault using Helm charts and custom manifests
+      - Developed a central gRPC backend server with Go to proxy all inter-service communication, enhancing security and type-safety
+      - Utilized NGINX Ingress Controller for traffic management and Cloudflare Tunnel for secure remote access to the cluster
+      - Achieved complete CI/CD pipeline via GitHub Action and ArgoCD, automating deployment of services from GitHub to the cluster
+      - 'Built #link("https://taehoonlee.cloud")[taehoonlee.cloud] with Next.js, the project homepage featuring custom observability dashboard and documentation page'
   - name: "Emory Hacks: Emory University's Student-Run Hackathon"
     startDate: 2024-09-01
     endDate: present
     highlights:
-      - Co-founded and led the technolgy department, developing annual hackathon websites (#link("https://emoryhacks.com")[emoryhacks.com]) with *Next.js*
-      - Created a unique database solution leveraging Google Spreadsheet with Google API, allowing non-technical team members to easily access and manage applicant data while addressing race conditions and data integrity
+      - Co-founded and led the technolgy department, developing annual hackathon websites (#link("https://emoryhacks.com")[emoryhacks.com]) with Next.js
+      - Created a unique database solution leveraging Google Spreadsheet with Google API, allowing non-technical team members to easily access and manage applicant data while addressing race conditions with event-driven server-side spreadsheet update
       - Secured 100+ participants and sponsorships from major firms including JPMorgan, Hyundai, and WolframAlpha
+  - name: "Emorylife: Korean Community Hub at Emory"
+    startDate: 2025-07-01
+    endDate: present
+    highlights:
+      - Built an online community (#link("https://emorylife.net")[emorylife.net]) for Korean parents of Emory University to share academic resources, events, and advice
+      - Developed the full-stack web application using Next.js, TypeScript, tRPC, and PostgreSQL, featuring internationalization and SSR
 
 skills:
   - category: Languages

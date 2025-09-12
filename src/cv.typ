@@ -113,6 +113,7 @@
     #pad(x: 0em)[
         #profiles.join([#sym.space #sym.dot #sym.space])
     ]
+    #v(4pt)
 ]
 
 #let cvheading(info, uservars) = {
