@@ -12,7 +12,6 @@ personal:
 
 education:
   - institution: Emory University
-    url:
     area: Computer Science
     studyType: Bachelor of Science
     startDate: 2023-08-01
@@ -83,10 +82,16 @@ projects:
     highlights:
       - Co-founded and led the technolgy department, developing annual hackathon websites (#link("https://emoryhacks.com")[emoryhacks.com]) with Next.js
       - Created a unique database solution leveraging Google Spreadsheet with Google API, allowing non-technical team members to easily access and manage applicant data while addressing race conditions with event-driven server-side spreadsheet update
-      - Secured 100+ participants and sponsorships from major firms including JPMorgan, Hyundai, and WolframAlpha
+      - Secured 200+ participants and sponsorships of \$10K+ from major firms including JPMorgan, Hyundai, WolframAlpha, and OReilly
+  - name: "Curaitor: AI-powered Coursework Manager"
+    startDate: 2025-09-01
+    endDate: 2025-09-01
+    highlights:
+      - Built an intelligent coursework management tool for college students as part of HackGT 12, leveraging Gemini API, Go, and Next.js.
+      - Implemented robust concurrency with multiple Gemini clients as goroutines, managing race conditions with context and mutex.
   - name: "Emorylife: Korean Community Hub at Emory"
     startDate: 2025-07-01
-    endDate: present
+    endDate: 2025-09-01
     highlights:
       - Built an online community (#link("https://emorylife.net")[emorylife.net]) for Korean parents of Emory University to share academic resources, events, and advice
       - Developed the full-stack web application using Next.js, TypeScript, tRPC, and PostgreSQL, featuring internationalization and SSR
@@ -95,7 +100,8 @@ skills:
   - category: Languages
     skills:
       - Go
-      - JavaScript/TypeScript
+      - JavaScript
+      - TypeScript
       - Java
       - Python
       - C
@@ -103,13 +109,14 @@ skills:
       - SQL
       - HTML
       - CSS
-      - Bash/Zsh
+      - Bash
+      - Zsh
       - Nushell
       - Ruby
       - Typst
       - C#
       - Lua
-      - Vim
+      - HCL
   - category: Cloud-Native Technologies
     skills:
       - Kubernetes
@@ -127,8 +134,8 @@ skills:
       - React
       - Next.js
       - Tailwind CSS
+      - Svelte
       - Node.js
-      - NPM
       - Django
       - Angular
       - Express.js
@@ -149,9 +156,11 @@ skills:
   - category: Tools
     skills:
       - Git
-      - AWS
-      - GCP
+      - Vim
+      - Helix
+      - AWS (S3, Lambda, Cloudfront)
+      - GCP (Cloud Run, AlloyDB, Gemini)
       - Redis
+      - SQLite
       - PostgreSQL
-      - MySQL
       - MongoDB

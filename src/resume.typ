@@ -8,8 +8,8 @@
     headingfont: "Libertinus Serif",
     bodyfont: "Libertinus Serif",
     fontsize: 10pt,          // https://typst.app/docs/reference/layout/length
-    linespacing: 6pt,        // length
-    sectionspacing: 2pt,     // length
+    linespacing: 5pt,        // length
+    sectionspacing: 0pt,     // length
     showAddress: false,      // https://typst.app/docs/reference/foundations/bool
     showNumber: false,       // bool
     showTitle: false,        // bool
