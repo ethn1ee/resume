@@ -4,12 +4,12 @@
 
 #let uservars = (
 	paper: "us-letter",
-	margin: 1.25cm,
-    headingfont: "Libertinus Serif",
-    bodyfont: "Libertinus Serif",
+	margin: 0.4in,
+    headingfont: "Charter",
+    bodyfont: "Charter",
     fontsize: 10pt,          // https://typst.app/docs/reference/layout/length
-    linespacing: 5pt,        // length
-    sectionspacing: 0pt,     // length
+    linespacing: 4pt,        // length
+    sectionspacing: 2pt,     // length
     showAddress: false,      // https://typst.app/docs/reference/foundations/bool
     showNumber: false,       // bool
     showTitle: false,        // bool
@@ -28,6 +28,6 @@
 
 #cvheading(cvdata, uservars)
 #cveducation(cvdata)
-#cvprojects(cvdata)
 #cvwork(cvdata)
+#cvprojects(cvdata)
 #cvskills(cvdata)
