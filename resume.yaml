@@ -90,8 +90,8 @@ projects:
     endDate: 2025-09-01
     link: https://github.com/esunn0412/curaitor
     highlights:
-      - Built an intelligent coursework management tool for college students as part of HackGT 12, leveraging Gemini API and Go.
-      - Implemented concurrency with multiple Gemini clients as goroutines, managing race conditions with context and mutex.
+      - Built an intelligent coursework management tool for college students as part of HackGT 12, leveraging Gemini API and Go
+      - Implemented concurrency with multiple Gemini clients as goroutines, managing race conditions with context and mutex
   - name: "Emorylife: Korean Community Hub at Emory"
     startDate: 2025-07-01
     endDate: 2025-09-01

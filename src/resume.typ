@@ -3,25 +3,25 @@
 #let cvdata = yaml("../resume.yaml")
 
 #let uservars = (
-	paper: "us-letter",
-	margin: 0.4in,
-    headingfont: "Charter",
-    bodyfont: "Charter",
-    fontsize: 10pt,          // https://typst.app/docs/reference/layout/length
-    linespacing: 4pt,        // length
-    sectionspacing: 2pt,     // length
-    showAddress: false,      // https://typst.app/docs/reference/foundations/bool
-    showNumber: false,       // bool
-    showTitle: false,        // bool
-    headingsmallcaps: false, // bool
-    sendnote: false,         // bool. set to false to have sideways endnote
+  paper: "us-letter",
+  margin: 0.4in,
+  headingfont: "Charter",
+  bodyfont: "Charter",
+  fontsize: 10pt,
+  linespacing: 4pt,
+  sectionspacing: 2pt,
+  showAddress: false,
+  showNumber: false,
+  showTitle: false,
+  headingsmallcaps: false,
+  sendnote: false,
 )
 
 #let cvinit(doc) = {
-    doc = setrules(uservars, doc)
-    doc = showrules(uservars, doc)
+  doc = setrules(uservars, doc)
+  doc = showrules(uservars, doc)
 
-    doc
+  doc
 }
 
 #show: doc => cvinit(doc)
