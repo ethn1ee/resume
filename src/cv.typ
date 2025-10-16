@@ -129,7 +129,6 @@
   #pad(x: 0em)[
     #profiles.join([#sym.space #sym.dot #sym.space])
   ]
-  #v(4pt)
 ]
 
 #let cvheading(info, uservars) = {
@@ -211,7 +210,7 @@
         let start = utils.strpdate(project.startDate)
         let end = utils.strpdate(project.endDate)
         block(width: 100%, breakable: isbreakable, below: 1em)[
-          *#project.name*  #h(1fr) #link(project.link)[*#project.link.split("//").at(1)*] \
+          *#project.name*  #h(1fr) #link(project.link)[#project.link.split("//").at(1)] \
           #for hi in project.highlights [
             - #eval(hi, mode: "markup")
           ]

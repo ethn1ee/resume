@@ -9,7 +9,7 @@
   bodyfont: "Charter",
   fontsize: 10pt,
   linespacing: 4pt,
-  sectionspacing: 2pt,
+  sectionspacing: 0pt,
   showAddress: false,
   showNumber: false,
   showTitle: false,
