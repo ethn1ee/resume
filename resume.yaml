@@ -23,14 +23,14 @@ education:
       - 6x James T Laney Scholarship
       - 3x Dean's List
     courses:
-      - Data Structures & Algorithmns
+      # - Data Structures & Algorithmns
       - Computer Architecture
       - Algorithm Analysis
       - Machine Learning
-      - Cybersecurity
-      # - Database Systems
+      - Cryptography
+      - Database Systems
       # - Data Mining
-      # - Deep Learning
+      - Deep Learning
       # - Human-Computer Interaction
       # - Linear Algebra
       # - Discrete Structures
@@ -166,7 +166,7 @@ skills:
       - Linux
       - Git
       - AWS (S3, Lambda, Cloudfront)
-      - GCP (Cloud Run/Build, Cloud SQL, Gemini)
+      - GCP (Cloud Run/Build, AlloyDB, Gemini)
       - Redis
       - SQLite
       - PostgreSQL
