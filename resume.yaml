@@ -42,18 +42,18 @@ work:
     startDate: 2025-05-01
     endDate: 2025-08-01
     highlights:
-      - Developed an internal REST API in Go to aggregate real-time state of on-prem MongoDB, MySQL, and RabbitMQ servers across 4 distinct datacenters, using cloud-native technologies such as Docker, OpenTelemetry, Prometheus, and OpenStack
-      - Deployed a Kubernetes CronJob for monitoring TLS certificate expiry to provide observability during certificate renewal
+      - Developed an internal *REST API* in *Go* to aggregate real-time state of on-prem MongoDB, MySQL, and RabbitMQ servers across 4 distinct datacenters, using cloud-native technologies such as *Docker*, OpenTelemetry, Prometheus, and OpenStack
+      - Deployed a *Kubernetes* CronJob for monitoring TLS certificate expiry to provide observability during certificate renewal
       - Collaborated with Grafana to establish synthetic monitoring for server health checks and provisioned probes with Terraform
-      - Applied CI/CD and GitOps principle using ArgoCD and GitHub Actions to fully automate container release and deployment
+      - Applied *CI/CD* and GitOps principle using ArgoCD and GitHub Actions to fully automate container release and deployment
   - position: Software Engineering Intern
     organization: eStreamly
     location: Atlanta, GA
     startDate: 2024-06-01
     endDate: 2024-08-01
     highlights:
-      - Maintained a full-stack video streaming-based shopping platform, leveraging Angular for frontend and .NET for backend
-      - Managed CI/CD pipelines using Google Cloud Build and performed a significant frontend redesign to enhance accessibility
+      - Maintained a full-stack video streaming-based shopping platform, leveraging *Angular* for frontend and *.NET* for backend
+      - Managed CI/CD pipelines using *Google Cloud Build* and performed a significant frontend redesign to enhance accessibility
       - Collaborated in an Agile team of developers, contributing to weekly sprints and QA testing for efficient feature delivery
   - position: Software Engineering Intern
     organization: UrsaTech
@@ -61,17 +61,17 @@ work:
     startDate: 2024-01-01
     endDate: 2024-04-01
     highlights:
-      - Developed a gamified coding education web app, integrating 3D games and a LLM chatbots into the frontend using Next.js
-      - Utilized a diverse stack of 30+ widely-used JavaScript libraries, including AWS Amplify, Auth0, Express.js, AI SDK, and MUI
+      - Developed a gamified coding education web app, integrating 3D games and a LLM chatbots into the frontend using *Next.js*
+      - Utilized a diverse stack of 30+ widely-used *TypeScript* libraries, including AWS Amplify, Auth0, Express.js, AI SDK, and MUI
   - position: Research Assistant
     organization: Emory University CAV Lab
     location: Atlanta, GA
     startDate: 2023-11-01
     endDate: 2025-09-01
     highlights:
-      - Aggregated 100+ GB of streaming history data from 60 Spotify users using Python for comprehensive statistical analysis
+      - Aggregated 100+ GB of streaming history data from 60 Spotify users using *Python* for comprehensive statistical analysis
       # - Co-authored a personal informatics study under Dr. Emily Wall, studying data engagement of music streaming service users
-      - Created interactive web data visualizations using React and d3.js, enabling dynamic exploration of music streaming history
+      - Created interactive web data visualizations using *React* and d3.js, enabling dynamic exploration of music streaming history
 
 projects:
   - name: Kubernetes Homelab
@@ -79,18 +79,18 @@ projects:
     endDate: present
     link: https://taehoonlee.cloud
     highlights:
-      - Managing a personal Kubernetes cluster on a Raspberry Pi, implementing a highly available microservices architecture
-      - Deployed 10+ services including PostgreSQL, Prometheus, Redis, and Vault using Helm and custom resource definitions
-      - Developed a gRPC backend server with Go to proxy all inter-service communication, enhancing security and observability
+      - Managing a personal *Kubernetes* cluster on a Raspberry Pi, implementing a highly available microservices architecture
+      - Deployed 10+ services including *PostgreSQL*, *Redis*, Prometheus and Vault using Helm and custom resource definitions
+      - Developed a *gRPC* backend server with Go to proxy all inter-service communication, enhancing security and observability
       # - Utilized NGINX Ingress Controller for traffic management and Cloudflare Tunnel for secure remote access to the cluster
-      - Achieved complete CI/CD pipeline via GitHub Action and ArgoCD, automating Docker image release and deployment
+      - Achieved complete *CI/CD* pipeline via GitHub Action and ArgoCD, automating Docker image release and deployment
       # - 'Built #link("https://taehoonlee.cloud")[taehoonlee.cloud] with Next.js, the project homepage featuring custom observability dashboard and documentations'
   - name: "Emory Hacks: Emory University's Student-Run Hackathon"
     startDate: 2024-09-01
     endDate: present
     link: https://emoryhacks.com
     highlights:
-      - Led the technolgy department as a co-founder and developed annual hackathon website using React, Next.js, and TypeScript
+      - Led the technolgy department as a co-founder and developed annual hackathon website using *Next.js*, and *TypeScript*
       # - Created a unique database solution leveraging Google Spreadsheet with Google API, allowing non-technical team members to easily access and manage applicant data while addressing race conditions with event-driven spreadsheet update
       - Secured 200+ participants and sponsorships of \$20K+ from major firms including JPMorgan, Hyundai, and WolframAlpha
   - name: "Curaitor: AI-powered Coursework Manager"
@@ -98,7 +98,7 @@ projects:
     endDate: 2025-09-01
     link: https://devpost.com/software/curaitor-7epmv2
     highlights:
-      - Developed an AI coursework management agent for college students as part of HackGT 12, leveraging Gemini API and Go
+      - Developed an AI coursework management agent for college students as part of HackGT 12, leveraging *Next.js* and *Go*
       - Implemented concurrency with multiple Gemini clients as goroutines, managing race conditions with context and mutex
   # - name: "Emorylife: Korean Community Hub at Emory"
   #   startDate: 2025-07-01
@@ -117,14 +117,14 @@ skills:
       - Java
       - Python
       - C
-      - Rust
+      # - Rust
       - SQL
       - HTML
       - CSS
-      - Bash
-      - Nushell
-      - Ruby
-      - Typst
+      - Shell Script
+      # - Nushell
+      # - Ruby
+      # - Typst
       # - LaTeX
       # - Lua
   - category: Cloud-Native Technologies
@@ -144,12 +144,12 @@ skills:
       - Next.js
       - Tailwind CSS
       - NGINX
-      - Svelte
+      # - Svelte
       - Node.js
       - Django
       - Angular
       - Express.js
-      - Spring Boot
+      # - Spring Boot
   # - category: Data Science & Machine Learning
   #   skills:
   #     - Pandas
