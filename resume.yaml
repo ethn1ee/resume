@@ -36,7 +36,7 @@ education:
       # - Discrete Structures
 
 work:
-  - position: Software Engineering Intern
+  - position: Software Engineering Intern (Cloud Platform)
     organization: UKG
     location: Atlanta, GA
     startDate: 2025-05-01
@@ -44,8 +44,8 @@ work:
     highlights:
       - Developed an internal *REST API* in *Go* to aggregate real-time state of on-prem MongoDB, MySQL, and RabbitMQ servers across 4 distinct datacenters, using cloud-native technologies such as *Docker*, OpenTelemetry, Prometheus, and OpenStack
       - Deployed a *Kubernetes* CronJob for monitoring TLS certificate expiry to provide observability during certificate renewal
-      - Collaborated with Grafana to establish synthetic monitoring for server health checks and provisioned probes with Terraform
-      - Applied *CI/CD* and GitOps principle using ArgoCD and GitHub Actions to fully automate container release and deployment
+      - Collaborated with Grafana to establish synthetic monitoring for server health checks and provisioned probes with *Terraform*
+      - Applied *CI/CD* and GitOps principle using *ArgoCD* and GitHub Actions to fully automate container release and deployment
   - position: Software Engineering Intern
     organization: eStreamly
     location: Atlanta, GA
