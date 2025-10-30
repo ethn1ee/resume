@@ -27,7 +27,7 @@
 #show: doc => cvinit(doc)
 
 #cvheading(cvdata, uservars)
-#cvskills(cvdata)
+#cveducation(cvdata)
 #cvwork(cvdata)
 #cvprojects(cvdata)
-#cveducation(cvdata)
+#cvskills(cvdata)

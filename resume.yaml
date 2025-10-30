@@ -19,7 +19,7 @@ education:
     endDate: 2026-05-01
     location: Atlanta, GA
     honors:
-      - 3.99 GPA
+      - 4.0 GPA
       - 6x James T Laney Scholarship
       - 3x Dean's List
     courses:
@@ -36,7 +36,7 @@ education:
       # - Discrete Structures
 
 work:
-  - position: Software Engineering Intern (Cloud Platform)
+  - position: Software Engineering Intern (Cloud Infrastructure)
     organization: UKG
     location: Atlanta, GA
     startDate: 2025-05-01
@@ -44,7 +44,7 @@ work:
     highlights:
       - Developed an internal *REST API* in *Go* to aggregate real-time state of on-prem MongoDB, MySQL, and RabbitMQ servers across 4 distinct datacenters, using cloud-native technologies such as *Docker*, OpenTelemetry, Prometheus, and OpenStack
       - Deployed a *Kubernetes* CronJob for monitoring TLS certificate expiry to provide observability during certificate renewal
-      - Collaborated with Grafana to establish synthetic monitoring for server health checks and provisioned probes with *Terraform*
+      - Provisioned monitoring probes with *Terraform* to establish synthetic testing for server health, collaborating with Grafana
       - Applied *CI/CD* and GitOps principle using *ArgoCD* and GitHub Actions to fully automate container release and deployment
   - position: Software Engineering Intern
     organization: eStreamly
@@ -52,8 +52,8 @@ work:
     startDate: 2024-06-01
     endDate: 2024-08-01
     highlights:
-      - Maintained a full-stack video streaming-based shopping platform, leveraging *Angular* for frontend and *.NET* for backend
-      - Managed CI/CD pipelines using *Google Cloud Build* and performed a significant frontend redesign to enhance accessibility
+      - Improved user interface of a full-stack video streaming-based shopping platform, leveraging *TypeScript*, *Angular*, and *.NET*
+      - Managed *Docker* image release pipelines using *GCP Cloud Build* and provisioned *Cloud SQL* and *AlloyDB* instances
       - Collaborated in an Agile team of developers, contributing to weekly sprints and QA testing for efficient feature delivery
   - position: Software Engineering Intern
     organization: UrsaTech
@@ -74,6 +74,13 @@ work:
       - Created interactive web data visualizations using *React* and d3.js, enabling dynamic exploration of music streaming history
 
 projects:
+  - name: "Curaitor: AI-powered Coursework Manager"
+    startDate: 2025-09-01
+    endDate: 2025-09-01
+    link: https://devpost.com/software/curaitor-7epmv2
+    highlights:
+      - Developed an AI coursework management agent for college students as part of HackGT 12, leveraging *Next.js* and *Go*
+      - Implemented concurrency with multiple Gemini clients as goroutines, managing race conditions with context and mutex
   - name: Kubernetes Homelab
     startDate: 2025-07-01
     endDate: present
@@ -93,13 +100,6 @@ projects:
       - Led the technolgy department as a co-founder and developed annual hackathon website using *Next.js*, and *TypeScript*
       # - Created a unique database solution leveraging Google Spreadsheet with Google API, allowing non-technical team members to easily access and manage applicant data while addressing race conditions with event-driven spreadsheet update
       - Secured 200+ participants and sponsorships of \$20K+ from major firms including JPMorgan, Hyundai, and WolframAlpha
-  - name: "Curaitor: AI-powered Coursework Manager"
-    startDate: 2025-09-01
-    endDate: 2025-09-01
-    link: https://devpost.com/software/curaitor-7epmv2
-    highlights:
-      - Developed an AI coursework management agent for college students as part of HackGT 12, leveraging *Next.js* and *Go*
-      - Implemented concurrency with multiple Gemini clients as goroutines, managing race conditions with context and mutex
   # - name: "Emorylife: Korean Community Hub at Emory"
   #   startDate: 2025-07-01
   #   endDate: 2025-09-01
@@ -117,7 +117,7 @@ skills:
       - Java
       - Python
       - C
-      # - Rust
+      - Rust
       - SQL
       - HTML
       - CSS
