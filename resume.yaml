@@ -97,7 +97,7 @@ projects:
     endDate: present
     link: https://emoryhacks.com
     highlights:
-      - Led the technolgy department as a co-founder and developed annual hackathon website using *Next.js*, and *TypeScript*
+      - Led the technology department as a co-founder and developed annual hackathon website using *Next.js*, and *TypeScript*
       # - Created a unique database solution leveraging Google Spreadsheet with Google API, allowing non-technical team members to easily access and manage applicant data while addressing race conditions with event-driven spreadsheet update
       - Secured 200+ participants and sponsorships of \$20K+ from major firms including JPMorgan, Hyundai, and WolframAlpha
   # - name: "Emorylife: Korean Community Hub at Emory"
