@@ -9,7 +9,7 @@ personal:
       url: https://linkedin.com/in/ethantlee
     - network: GitHub
       username: ethn1ee
-      url: https://github.com/ethn1ee
+      url: https://github.com/thdxg
 
 education:
   - institution: Emory University
@@ -20,20 +20,15 @@ education:
     location: Atlanta, GA
     honors:
       - 3.99 GPA
-      - 6x James T Laney Scholarship
-      - 4x Dean's List
+      - 2x James T Laney Scholarship
+      - 5x Dean's List
     courses:
-      # - Data Structures & Algorithmns
       - Computer Architecture
+      - Systems Programming
       - Algorithm Analysis
-      - Machine Learning
+      # - Machine Learning
       - Cryptography
       - Database Systems
-      # - Data Mining
-      - Deep Learning
-      # - Human-Computer Interaction
-      # - Linear Algebra
-      # - Discrete Structures
 
 work:
   - position: Software Engineering Intern (Cloud Infrastructure)
@@ -74,14 +69,21 @@ work:
       - Created interactive web data visualizations using React and d3.js, enabling dynamic exploration of music streaming history
 
 projects:
+  - name: "Huddle: RAG-based Surety Solution"
+    startDate: 2025-08-01
+    endDate: present
+    link: https://huddlesurety.co
+    highlights:
+      - Created a SaaS platform to streamline collaboration between surety contractors and agents, funded by Emory Hatchery
+      - Architected an event-driven RAG pipeline using Temporal to asynchorously parse and generate bid bond documents
+      - Delivered 10+ product demos and customer interviews, leading to a \$10K funding round and early product validation
   - name: "Overburrow: Kubernetes Homelab"
     startDate: 2025-07-01
     endDate: present
     link: https://overburrow.org
     highlights:
-      - Architected a bare-metal K3s cluster on ARM64 hardware, utilizing Ansible for idempotent node provisioning and OS-level kernel tuning (e.g., checksum offloading disablement) to ensure stability on Raspberry Pi NICs
-      - Engineered a hybrid networking mesh combining Cilium CNI with Tailscale as the underlay transport and solved complex MTU fragmentation issues by implementing custom packet clamping rules to bypass standard VXLAN encapsulation
-      - Implemented a full GitOps workflow with ArgoCD and GitHub Actions, enabling declarative and automated deployments
+      - Architected a bare-metal K3s cluster on 3 Raspberry Pis, utilizing Ansible for idempotent node provisioning, Cilium for cluster networking with Gateway API, ArgoCD for declarative GitOps workflow, and Prometheus for observability
+      - Engineered a hybrid networking mesh combining Cilium CNI with Tailscale VPN as the underlay transport and solved complex MTU fragmentation issues by implementing custom packet clamping rules to bypass standard VXLAN encapsulation
   - name: "Emory Hacks: Emory University's Student-Run Hackathon"
     startDate: 2024-09-01
     endDate: present
@@ -90,13 +92,13 @@ projects:
       - Led the technology department as a co-founder and developed annual hackathon website using Next.js, and TypeScript
       # - Created a unique database solution leveraging Google Spreadsheet with Google API, allowing non-technical team members to easily access and manage applicant data while addressing race conditions with event-driven spreadsheet update
       - Secured 200+ participants and sponsorships of \$20K+ from major firms including JPMorgan, Hyundai, and WolframAlpha
-  - name: "Curaitor: AI-powered Coursework Manager"
-    startDate: 2025-09-01
-    endDate: 2025-09-01
-    link: https://devpost.com/software/curaitor-7epmv2
-    highlights:
-      - Developed an AI coursework management agent for college students during HackGT 12, leveraging Next.js and Go
-      - Implemented an event-driven architecture using the Actor Model, while managing race conditions with channel and mutex
+  # - name: "Curaitor: AI-powered Coursework Manager"
+  #   startDate: 2025-09-01
+  #   endDate: 2025-09-01
+  #   link: https://devpost.com/software/curaitor-7epmv2
+  #   highlights:
+  #     - Developed an AI coursework management agent for college students during HackGT 12, leveraging Next.js and Go
+  #     - Implemented an event-driven architecture using the Actor Model, while managing race conditions with channel and mutex
   # - name: "Emorylife: Korean Community Hub at Emory"
   #   startDate: 2025-07-01
   #   endDate: 2025-09-01
@@ -125,9 +127,10 @@ skills:
   - category: Cloud-Native Technologies
     skills:
       - Kubernetes
+      - Linux
       - Docker
       - Helm
-      - Terraform
+      - ArgoCD
       - Ansible
       - Prometheus
       - OpenTelemetry
@@ -144,7 +147,6 @@ skills:
   #     - Express.js
   - category: Tools
     skills:
-      - Linux
       - Git
       - AWS (S3, Lambda, Cloudfront)
       - GCP (Cloud Run, AlloyDB, Pub/Sub, Vertex AI)
