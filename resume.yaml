@@ -50,6 +50,15 @@ work:
       - Improved user interface of a full-stack video streaming-based shopping platform, leveraging TypeScript, Angular, and .NET
       - Managed Docker image release pipelines using GCP Cloud Build and provisioned Cloud SQL and AlloyDB instances
       - Collaborated in an Agile team of developers, contributing to weekly sprints and QA testing for efficient feature delivery
+  - position: Research Assistant
+    organization: Emory University CAV Lab
+    location: Atlanta, GA
+    startDate: 2023-11-01
+    endDate: 2025-12-01
+    highlights:
+      - Co-authored a HCI paper accepted to ACM CHI 2026 exploring personal informatics through music consumption
+      - Aggregated 100+ GB of streaming history data from 60 Spotify users using Python for comprehensive statistical analysis
+      # - Created interactive web data visualizations using React and d3.js, enabling dynamic exploration of music streaming history
   - position: Software Engineering Intern
     organization: UrsaTech
     location: Atlanta, GA
@@ -58,15 +67,6 @@ work:
     highlights:
       - Developed a gamified coding education web app, integrating 3D games and a LLM chatbots into the frontend using Next.js
       - Utilized a diverse stack of 30+ widely-used TypeScript libraries, including AWS Amplify, Auth0, Express.js, AI SDK, and MUI
-  - position: Research Assistant
-    organization: Emory University CAV Lab
-    location: Atlanta, GA
-    startDate: 2023-11-01
-    endDate: 2025-09-01
-    highlights:
-      - Aggregated 100+ GB of streaming history data from 60 Spotify users using Python for comprehensive statistical analysis
-      # - Co-authored a personal informatics study under Dr. Emily Wall, studying data engagement of music streaming service users
-      - Created interactive web data visualizations using React and d3.js, enabling dynamic exploration of music streaming history
 
 projects:
   - name: "Huddle: RAG-based Surety Solution"
